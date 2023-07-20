@@ -1,0 +1,228 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand',sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 47px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Caveat';
+    color: #FFF89A;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #9ADCFF;
+    z-index: 1;
+    border-bottom: 1px solid #C7BEA2;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #FFF89A;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #FFB2A6;
+    width: 100%;
+    line-height: 50px;
+}
+
+h2 {
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #D4B499;
+    width: 100%;
+    line-height: 30px;
+}
+
+a.tbl-ungu {
+    background: #FF8AAE;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFF89A;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-ungu:hover {
+    background: #FFCBCB;
+    text-decoration: underline;
+}
+
+a.tbl-booking {
+    background: #FF8AAE;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFF89A;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-booking:hover {
+    background: #FFCBCB;
+    text-decoration: underline;
+}
+
+.box {
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border: 4px solid #9ADCFF;
+    width: 400px;
+    border-radius: 40px;
+    height: 25;
+}
+
+.input {
+    outline: none;
+    height: 40px;
+    width: 300px;
+    border-radius: 40px;
+    border: 0;
+    color: #FF8AAE;
+    font-size: 13px;
+}
+
+.src {
+    background: transparent;
+    outline: none;
+    border: 0;
+    padding-left: 10px;
+    color: #FF8AAE;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box :hover {
+    background-color: #FFF89A;
+}
+
+.flight {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #FFB2A6;
+    width: 100%;
+    line-height: 50px;
+}
+
+.where-we-going {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #FFB2A6;
+    width: 100%;
+    line-height: 50px;
+}
+
+.gambar-flight {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.penerbangan {
+    width: 20%;
+    margin: 50px;
+}
+
+.penerbangan img {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    margin-top: -30px;
+}
+
+.penerbangan p {
+    font-family: 'Quicksand';
+    font-weight: 800;
+    font-size: 26px;
+    text-align: center;
+    color: #D4B499;
+}
+
+.gmb {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+}
+
+.negara {
+    width: 20%;
+    margin: 50px;
+}
+
+.negara img {
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    margin-top: -100px;
+}
+
+.negara p {
+    font-family: 'Quicksand';
+    font-weight: 800;
+    font-size: 26px;
+    text-align: center;
+    color: #D4B499;
+}
